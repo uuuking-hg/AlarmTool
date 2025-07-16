@@ -17,7 +17,7 @@ Version Detection and About Page
 It supports checking for app updates and displaying information such as the app version.
 Overall, AlarmTool not only provides basic alarm functions, but also makes it harder for users to oversleep and ensures the alarm is more reliable through diversified "wake - up tasks" and detailed permission/compatibility adaptations.
 
-中文：AlarmTool 具备以下具体功能：
+AlarmTool 具备以下具体功能：
 
 闹钟设置与管理
 支持用户添加、编辑、删除闹钟，设置闹钟的时间、重复周期等基本信息。
