@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alarmtool</string>
+    <string name="complete_task_to_dismiss_alarm">完成任务关闭闹钟</string>
+    <string name="dismiss_alarm">关闭闹钟</string>
+    <string name="permission_rationale_camera">需要相机权限以使用拍照任务功能。</string>
+    <string name="permission_rationale_internet">需要网络权限以检查更新和访问GitHub开源地址。</string>
+    <string name="permission_rationale_exact_alarm">需要精确闹钟权限以确保闹钟在正确的时间响铃。</string>
+    <string name="permission_rationale_vibrate">需要震动权限以确保闹钟震动功能正常。</string>
+    <string name="permission_rationale_record_audio">需要录音权限以使用语音朗读任务功能。</string>
+
+    <string name="time_selection">时间选择</string>
+    <string name="task_selection">任务选择</string>
+    <string name="reminder_settings">提醒设置</string>
+    <string name="ringtone">铃声</string>
+    <string name="vibrate">震动</string>
+    <string name="save">保存</string>
+    <string name="math_task_name">数学题</string>
+    <string name="shake_task_name">摇晃</string>
+    <string name="tts_read_task_name">朗读文本</string>
+    <string name="select_ringtone">选择铃声</string>
+    <string name="no_ringtone_selected">未选择铃声</string>
+    <string name="default_ringtone">默认铃声</string>
+
+    <string name="about_title">关于</string>
+    <string name="author_info">作者：[自定义名称]</string>
+    <string name="version_info">版本号：v%s</string>
+    <string name="github_link_text">GitHub 开源地址</string>
+    <string name="check_for_updates">检查更新</string>
+    <string name="update_checking">正在检查更新…</string>
+    <string name="update_latest">已是最新版本。</string>
+    <string name="update_new_version">发现新版本！</string>
+    <string name="no_browser_toast">未找到浏览器应用。</string>
+
+    <!-- 备份和恢复 -->
+    <string name="backup">备份闹钟数据</string>
+    <string name="restore">恢复闹钟数据</string>
+    <string name="backup_success">备份成功</string>
+    <string name="backup_success_message">备份文件已保存到：%s</string>
+    <string name="backup_failed">备份失败</string>
+    <string name="restore_success">恢复成功</string>
+    <string name="restore_success_message">已恢复 %d 个闹钟</string>
+    <string name="restore_failed">恢复失败</string>
+    <string name="restore_invalid_file">无效的备份文件</string>
+    <string name="restore_version_not_supported">不支持的备份版本</string>
+    <string name="error_file_picker">无法打开文件选择器</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_retry">重试</string>
+    <string name="dialog_skip">跳过</string>
+</resources>

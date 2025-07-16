@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    tools:context=".AlarmTaskActivity">
+
+    <TextView
+        android:id="@+id/tv_task_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/complete_task_to_dismiss_alarm"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:id="@+id/task_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:minHeight="150dp" />
+
+    <Button
+        android:id="@+id/btn_dismiss_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTint="@color/primaryColor"
+        android:text="@string/dismiss_alarm"
+        android:textColor="@color/white"
+        android:enabled="false"
+        app:cornerRadius="0dp" />
+
+</RelativeLayout> 

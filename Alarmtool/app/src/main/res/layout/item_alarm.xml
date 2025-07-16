@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/cardColor">
+
+    <TextView
+        android:id="@+id/tv_alarm_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07:30"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="07:30" />
+
+    <TextView
+        android:id="@+id/tv_repeat_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon, Tue, Wed"
+        android:textSize="16sp"
+        android:textColor="@color/textColorSecondary"
+        app:layout_constraintStart_toStartOf="@id/tv_alarm_time"
+        app:layout_constraintTop_toBottomOf="@id/tv_alarm_time"
+        android:layout_marginTop="4dp"
+        tools:text="Mon, Tue, Wed" />
+
+    <TextView
+        android:id="@+id/tv_task_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数学题"
+        android:textSize="16sp"
+        android:textColor="@color/textColorSecondary"
+        app:layout_constraintEnd_toStartOf="@id/switch_alarm_enabled"
+        app:layout_constraintTop_toTopOf="@id/tv_alarm_time"
+        app:layout_constraintBottom_toBottomOf="@id/tv_alarm_time"
+        android:layout_marginEnd="8dp"
+        tools:text="数学题" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_alarm_enabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_alarm_time"
+        app:layout_constraintBottom_toBottomOf="@id/tv_alarm_time" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 

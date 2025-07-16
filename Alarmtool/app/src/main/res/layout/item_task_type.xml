@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_task_type_card"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/task_card_background"
+    android:padding="8dp"
+    android:layout_marginEnd="8dp">
+
+    <ImageView
+        android:id="@+id/iv_task_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_math"
+        app:tint="@color/textColorPrimary"
+        android:contentDescription="任务图标" />
+
+    <TextView
+        android:id="@+id/tv_task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="数学题"
+        android:textSize="14sp"
+        android:textColor="@color/textColorPrimary"
+        tools:text="数学题" />
+
+</LinearLayout> 
