@@ -5,7 +5,7 @@ Alarm Setting and Management
 It allows users to add, edit, and delete alarms, as well as set basic information such as alarm time and repeat cycle.
 Multiple Wake - up Tasks
 TTS (Text - to - Speech) task: When the alarm goes off, users will be asked to read a specified text. It uses voice recognition to determine whether the user reads correctly, so as to wake up the user and prevent them from oversleeping.
-Task types like shaking, camera tasks, etc. (From the perspective of code structure, it supports multiple wake - up tasks, making it easy to expand).
+Task types like shaking, camera tasks, etc.
 Permission Management and Guidance
 It can automatically detect and guide users to apply for key permissions including alarm, floating window, self - starting, camera, and recording, ensuring that the alarm and task functions work properly.
 Data Backup and Recovery
@@ -23,7 +23,7 @@ AlarmTool 具备以下具体功能：
 支持用户添加、编辑、删除闹钟，设置闹钟的时间、重复周期等基本信息。
 多种唤醒任务
 TTS（语音朗读）任务：闹钟响起时，会让用户朗读指定文本，通过语音识别判断用户是否正确朗读，以此来唤醒用户，防止赖床。
-摇晃、摄像头等任务类型（从代码结构看支持多种唤醒任务，便于扩展）。
+摇晃、摄像头等任务类型
 权限管理与指引
 自动检测并引导用户申请包括闹钟、悬浮窗、自启动、相机、录音等关键权限，确保闹钟和任务功能正常运行。
 数据备份与恢复
